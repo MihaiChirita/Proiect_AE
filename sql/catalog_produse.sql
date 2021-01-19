@@ -2,7 +2,7 @@ CREATE DATABASE `catalog_produse` DEFAULT CHARACTER SET latin1 COLLATE latin1_sw
 USE `catalog_produse`;
 
 
-CREATE TABLE IF NOT EXISTS `produses` (
+CREATE TABLE IF NOT EXISTS `produse` (
   `id` smallint(5) NOT NULL AUTO_INCREMENT,
   `nume` varchar(30) DEFAULT NULL,
   `descriere` varchar(200) DEFAULT NULL,
